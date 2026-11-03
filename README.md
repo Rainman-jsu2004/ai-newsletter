@@ -41,7 +41,7 @@ python send_daily.py --test
 如果提示找不到 python，用完整路径：
 
 ```powershell
-& "C:\Users\wxm\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe" send_daily.py --test
+& "$env:USERPROFILE\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe" send_daily.py --test
 ```
 
 收到测试邮件即说明配置成功。

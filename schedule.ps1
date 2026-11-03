@@ -11,7 +11,7 @@ $ErrorActionPreference = "Stop"
 $ProjectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 
 # 优先使用 DeepSeek Harness 自带的 Python；否则回退到系统 python
-$BundledPython = "C:\Users\wxm\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe"
+$BundledPython = "$env:USERPROFILE\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\python\python.exe"
 if (Test-Path $BundledPython) {
   $Python = $BundledPython
 } else {
