@@ -1,0 +1,26 @@
+{
+  "email": {
+    "sender": "你的邮箱@qq.com",
+    "authorizationCode": "在这里填 SMTP 授权码（不是邮箱登录密码）",
+    "recipient": "接收邮箱（可与发件人相同）",
+    "subjectPrefix": "AI 日报"
+  },
+  "ai": {
+    "apiKey": "",
+    "baseUrl": "https://api.deepseek.com",
+    "model": "deepseek-chat"
+  },
+  "news": {
+    "feeds": [
+      "https://www.qbitai.com/feed",
+      "https://www.infoq.cn/feed",
+      "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "https://blog.google/technology/ai/rss/",
+      "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+      "https://export.arxiv.org/rss/cs.AI"
+    ],
+    "maxItemsPerFeed": 8,
+    "maxTotalItems": 40
+  }
+}
