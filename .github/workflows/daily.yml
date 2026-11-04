@@ -2,8 +2,8 @@ name: AI 日报自动发送
 
 on:
   schedule:
-    # 北京时间每天 08:15（UTC 00:15），避开整点高负载
-    - cron: "15 0 * * *"
+    # 北京时间每天 10:00（UTC 02:00）
+    - cron: "0 2 * * *"
   workflow_dispatch:
 
 jobs:
